@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity implements DrivingSession.Dr
     private void submitRequest() {
         DrivingOptions options = new DrivingOptions();
         // Кол-во альтернативных путей
-        options.setAlternativeCount(3);
+        options.setAlternativeCount(4);
         ArrayList<RequestPoint> requestPoints = new ArrayList<>();
         // Устанавливаем точки маршрута
         requestPoints.add(new RequestPoint(ROUTE_START_LOCATION, RequestPointType.WAYPOINT, null));
